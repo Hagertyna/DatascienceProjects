@@ -13,4 +13,4 @@ df1.dropna(inplace =True)
 df1.info()
 df1["price_usd"].head()
 #lets remove $ sign from price clumn and change it into float
-df1["price_usd"].str.replace("$","",regex=False).head()
+df1["price_usd"].str.replace("$","",regex=False).str.replace(",","")
