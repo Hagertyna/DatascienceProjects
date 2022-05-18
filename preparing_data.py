@@ -42,7 +42,7 @@ df3["place_with_parent_names"].str.split("|",expand= True)[2]
 #create state column from the second entry of place_with...
 df3["state"] = df3["place_with_parent_names"].str.split("|",expand= True)[2]
 #before droping
-df3
+print(df3)
 #drop columns
 df3.drop(columns =["place_with_parent_names","lat-lon"], inplace=True)
 #conncatinate the three dfr into one df 
