@@ -24,3 +24,5 @@ items = newcar.items()
 print(items)
 if "color" in newcars:
     print("Yes, color is in newcars!")
+newcars.pop("year")
+print(newcars)
