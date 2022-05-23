@@ -13,3 +13,14 @@ len(newcars)
 #print keys
 x = newcars.keys()
 print(x)
+newcars["color"] = "black"
+print(newcars)
+
+car = newcars.values()
+print(car)
+newcars["year"] = 2019
+print(newcars)
+items = newcar.items()
+print(items)
+if "color" in newcars:
+    print("Yes, color is in newcars!")
