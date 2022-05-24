@@ -33,3 +33,6 @@ print(newcars)
 
 newcars.popitem()
 print(newcars)
+
+del newcars["brand"]
+print(newcars)
