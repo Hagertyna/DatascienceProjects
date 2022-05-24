@@ -30,3 +30,6 @@ if "color" in newcars:
     print("Yes, color is in newcars!")
 newcars.update({"color": "white"})
 print(newcars)
+
+newcars.popitem()
+print(newcars)
