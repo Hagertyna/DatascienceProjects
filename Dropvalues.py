@@ -14,3 +14,6 @@ dataf.drop(['Sheger'],axis=1)
 print(dataf)
 new_dat =dataf.drop('Dire',axis = 1)
 new_dat
+
+#lets drop nan value lets say df dataframe
+df.dropna(inplace=True)
