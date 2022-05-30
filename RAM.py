@@ -14,5 +14,6 @@ def outer():
         x = 5
         print(x) #5
     inner()
+#outer code prints 
 # 10 5
 outer()
