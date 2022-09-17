@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 data = pd.Series(np.arange(6),index=['a','b','c','d','e','f'])
-data
+print(data)
 n_data = data.drop('a')
 n_data
 data.drop(['a','d'])
